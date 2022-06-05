@@ -3,7 +3,6 @@
 
 ''' For USB Webcams ''' 
 import cv2
-#hello 
 
 # Use "ls /dev/" to find which port has /video_ port
 cam = cv2.VideoCapture("/dev/video5") # initialise camera
